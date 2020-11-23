@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Search</title>
+    </head>
+    <body>
+        <div id="navbar">
+            <a class="toplinks" href="./gimagesearch.html">Image Search </a>
+            <a class="toplinks" href="./gadvancedsearch.html">Advanced Search</a>
+        </div>
+        <div style="display:flex; align-items:center; height: 700px">
+            <form  action="https://google.com/search" data-submitfalse="q" method="GET" name="f" role="search">
+                <div >
+                <input type="hidden" name="hl" value="en">
+                <input type="hidden" name="source" value="hp">
+
+                </div>
+                <div class="mainform">
+                <div id="inputgrp" class="input-group mb-3">
+                    <div><img src="googlelogo.png" alt="googlelogo" ></div>
+                    <div class="input-group-prepend">
+                        <div style="width: 1920px; display:flex; justify-content:center;">
+                            <span style="background: #fff; border-radius: 24px; width:580px; display:flex; justify-content:center;" class="input-group-text" id="basic-addon1"><img src="searchicon.svg" alt="searchlogo" width="24" height="24">
+                                <input id="inputText"style="border: none;" type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1" name="q" value="" role="combobox">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <input class="btn btn-light" type="submit" name="btnK" value="Google Search">
+                <input class="btn btn-light" type="submit" name="btnI" value="I’m Feeling Lucky">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

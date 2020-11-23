@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Advanced Search</title>
+    </head>
+    <body>
+        <div style="justify-content: space-between; height: 60px; background:#f1f1f1;" id="navbar"> 
+            <div style="width:92px;">
+                <img style="width:92px;" src="googlelogo.png" alt="googlelogo" >
+            </div>
+            <a class="toplinks" href="./index.html">Back to Google Search </a>
+        </div>
+        <div style="display:flex;align-items:center;flex-direction:column;justify-content:flex-start;height: 500px; margin-top: 30px;">
+            <div style="width:100%; border-bottom:1px solid #ebebeb;">
+                <h1 style="margin-left:30px; margin-bottom: 30px; color:#d93025;font-size:16px; ">Advanced Search</h1>
+            </div>
+            <form style="display:flex; flex-wrap: wrap; align-self:flex-start; margin-top:20px;" action="https://google.com/search" method="GET" name="f">
+                <div style="margin-left:30px; width:100%; text-align:left;" id="gridform">
+                    Find pages with… “all these words:”
+                    <input class="advancedinput" value="" name="as_q" type="text">
+                   
+                    Find pages with… “this exact word or phrase:”
+                    <input class="advancedinput" value="" name="as_epq" type="text">
+                  
+                    Find pages with… “any of these words:”
+                    <input class="advancedinput" value="" name="as_oq" type="text">
+                
+                    Find pages with… “none of these words:”
+                    <input class="advancedinput" value="" name="as_eq" type="text">
+                    
+                </div>
+                <div style="width:100%; display:flex; justify-content:flex-end; margin-top: 8px;">
+                    <input name="tbs" type="hidden" value="">
+                    <input id="advanced" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

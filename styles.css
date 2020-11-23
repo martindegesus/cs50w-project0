@@ -1,0 +1,73 @@
+*{
+    font-size:small;
+}
+
+#navbar {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    padding:12px;
+    align-items: center;
+}
+
+.mainform {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+}
+
+#inputgrp {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    widows: 220px;
+}
+
+#inputTextWrapper {
+    width: 584px;
+    height: 46px;
+}
+
+#inputText {
+    width: 527px;
+    height: 34px;
+    font-size: 16px;
+
+}
+
+.btn-light:hover{
+    color: #212529;
+    background-color:  #fff;
+}
+
+#advanced:hover{
+    color:  #fff;
+    background-color:  #4787ed;
+}
+
+#gridform {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#advanced{
+    color: #fff;
+    background-color:  #4d90fe;
+    border: 1px solid #3079ed;
+}
+
+.advancedinput{
+    margin: 2px 1px;
+}
+
+.toplinks{
+    font-size: 13px;
+    margin: 0px 5px;
+    color:black;
+}
+
+.toplinks:hover{
+    color:black;
+}
